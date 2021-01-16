@@ -18,7 +18,7 @@ namespace p25_euler
 
             int answer_p25 = fibonacci.Index;
 
-            Console.WriteLine("The answer to problem 24 of project Euler is " + answer_p25 + ".");
+            Console.WriteLine("The answer to problem 25 of project Euler is " + answer_p25 + ".");
         }
     }
 }
