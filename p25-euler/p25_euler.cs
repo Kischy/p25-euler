@@ -12,7 +12,7 @@ namespace p25_euler
             Fibonacci fibonacci = new Fibonacci();
 
 
-            while(DigitCounter.GetNumberOfDigits(fibonacci.GetNextFibonacci()) != 1000)
+            while(DigitCounter.GetNumberOfDigitsPosNum(fibonacci.GetNextFibonacci()) != 1000)
             {
             }
 

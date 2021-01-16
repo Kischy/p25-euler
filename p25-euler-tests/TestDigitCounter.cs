@@ -10,13 +10,13 @@ namespace p25_euler_tests
     {
 
         [TestMethod]
-        public void TestGetNumberOfDigits()
+        public void TestGetNumberOfDigitsPosNum()
         {
-            Assert.AreEqual(1, DigitCounter.GetNumberOfDigits(1));
-            Assert.AreEqual(2, DigitCounter.GetNumberOfDigits(-11));
-            Assert.AreEqual(5, DigitCounter.GetNumberOfDigits(54611));
-            Assert.AreEqual(1, DigitCounter.GetNumberOfDigits(-1));
-            Assert.AreEqual(8, DigitCounter.GetNumberOfDigits(-56145641));
+            Assert.AreEqual(1, DigitCounter.GetNumberOfDigitsPosNum(1));
+            Assert.AreEqual(2, DigitCounter.GetNumberOfDigitsPosNum(11));
+            Assert.AreEqual(5, DigitCounter.GetNumberOfDigitsPosNum(54611));
+            Assert.AreEqual(1, DigitCounter.GetNumberOfDigitsPosNum(1));
+            Assert.AreEqual(8, DigitCounter.GetNumberOfDigitsPosNum(56145641));
 
         }
     }
